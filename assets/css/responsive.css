@@ -1,0 +1,186 @@
+@media ((min-width: 1600px)) {
+    .hero-section  {
+
+        h1 {
+            font-size: 4rem;
+        }
+        h5 {
+            font-size: 2rem;
+        }
+        
+    }
+
+    .speaker-gallary{
+        span {
+          font-size: 16px;
+        }
+
+        .route span {
+          font-size: 16px;
+        }
+
+        .default-avatar,
+        .member-overlap-item {
+          height: 70px;
+          width: 70px;
+        }
+
+    } 
+
+    .home-cta-btn .main-btn {
+        letter-spacing: 1px !important;
+        font-size: 25px;
+        max-width: 16rem;
+        height: 45px;
+    }
+    .main-btn:after {
+        height: 43px;
+        
+    }
+
+    .owl-carousel {
+        .card {
+          transition: none;
+          height: 200px;
+        }
+        
+        .card:hover {
+          transform: none;
+        }
+
+        .img-fluid {
+            width: 80% !important;
+            height: auto;
+            display: block;
+            border: 1px solid var(--bg-dark);
+            box-shadow: 1px 1px var(--bg-dark);
+        }
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item{
+        padding: 0 30px;
+    }
+      
+    
+    
+    
+}
+  
+@media ((max-width: 1599px) and (min-width: 1400px)) {
+    .hero-section  {
+
+        h1 {
+            font-size: 3.5rem;
+        }
+        h5 {
+            font-size: 2rem;
+        }
+        
+    }
+
+    .speaker-gallary{
+
+        .default-avatar,
+        .member-overlap-item {
+          height: 70px;
+          width: 70px;
+        }
+
+    } 
+    .home-cta-btn .main-btn {
+        letter-spacing: 1px !important;
+        font-size: 25px;
+        max-width: 16rem;
+        height: 45px;
+    }
+    .main-btn:after {
+        height: 43px;
+        
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item{
+        padding: 0 30px;
+    }
+
+}
+  
+@media (max-width: 1140px) {
+
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 991px) {
+    .speaker-gallary .default-avatar,
+    .member-overlap-item {
+        height: 45px;
+        width: 45px;
+    }
+    .speaker-gallary span {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        h3 {
+          font-size: 1rem;
+          font-weight: 700;
+          font-family: var(--tertiary-font);
+        }
+    
+        .img-fluid {
+            
+          width: 50%;
+          object-fit: cover;
+        }
+        p {
+          font-family: var(--tertiary-font);
+          font-weight: 500;
+        }
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    
+    
+    
+    .speaker-image-avatar {
+       display: flex;
+       justify-content: center;
+    }
+
+}
+
+@media (max-width: 467px) {
+    .hero-section  {
+
+        h1 {
+            font-size: 1.7rem;
+        }
+        h5 {
+            font-size: 1.4rem;
+        }
+        
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-section  {
+
+        h1 {
+
+            font-size: 1.5rem;
+        }
+        h5 {
+            font-size: 1.2rem;
+        }
+        
+    }
+}
